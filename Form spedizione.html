@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body>
+
+<!--Dati personali-->
+
+<form id="Delivery" autocomplete="off">
+
+    <label for="fname">Nome*</label>
+    <input type="text" name="fname" placeholder="Nome" id="fname" required>
+
+    <label for="lname">Cognome*</label>
+    <input type="text" name="lname" placeholder="Cognome" id="lname" required>
+
+    <label for="Address"> Indirizzo*</label>
+    <input type="text" name="address" placeholder="Indirizzo" id="Address" required>
+
+    <label for="street number">Civico</label>
+    <input type="number" name="stnumber" id="street number">
+
+    <label for="cap">Cap</label>
+    <input type="number" name="cap" id="cap">
+
+    <label for="Prov">Provincia*</label>
+    <select name="provincia" id="Prov" required>
+        <option value="NA">Napoli</option>
+        <option value="RO">Roma</option>
+        <option value="MI">Milano</option>
+        <option value="OT" selected>Altro</option>
+    </select>
+
+    <label for="city">Città*</label>
+    <input type="text" name="città" placeholder="Città" id="city" required>
+
+    <label for="Tel">Telefono*</label>
+    <input type="tel" name="tel" placeholder="+39" id="Tel" required>
+
+    <label for="Country">Nazione</label>
+    <input type="text" name="Country" id="Country" required>
+
+    <label for="email">Email*</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="Note">Note</label>
+    <textarea name="Note" id="Note" cols="30" rows="10"></textarea>
+
+    <input type="submit" value="Invia">
+
+</form>
+
+<button type="reset" form="Delivery">Reset</button>
+
+</body>
+</html>
