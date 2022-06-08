@@ -39,7 +39,7 @@
         <tr>
             <td><label for="street number">Civico</label></td>
             <td>
-                <input type="number" name="stnumber" id="street number">
+                <input type="number" name="stnumber" id="street number" placeholder="0">
             </td>
         </tr>
 
@@ -47,7 +47,7 @@
         <tr>
             <td><label for="cap">Cap</label></td>
             <td>
-                <input type="number" name="cap" id="cap">
+                <input type="number" name="cap" id="cap" placeholder="00000">
             </td>
         </tr>
 
@@ -84,7 +84,7 @@
         <tr>
             <td><label for="Country">Nazione</label></td>
             <td>
-                <input type="text" name="Country" id="Country">
+                <input type="text" name="Country" id="Country" placeholder="Nazione">
             </td>
         </tr>
 
@@ -92,7 +92,7 @@
         <tr>
             <td><label for="email">Email*</label></td>
             <td>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" placeholder="@email.com" required>
             </td>
         </tr>
 
@@ -100,8 +100,13 @@
         <tr>
             <td><label for="Note">Note</label></td>
             <td>
-                <textarea name="Note" id="Note" cols="30" rows="10"></textarea>
+                <textarea name="Note" id="Note" cols="30" rows="10" placeholder="Text"></textarea>
+            </td>
+        </tr>
 
+
+        <tr>
+            <td colspan="1">
                 <input type="submit" value="Invia">
             </td>
         </tr>
@@ -110,6 +115,7 @@
     </table>
 
     <button type="reset" form="Delivery">Reset</button>
+    <!--Fine dati personali in tabelle-->
 </form>
 </body>
 </html>
