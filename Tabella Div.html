@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Form tabella</title>
+</head>
+
+<!-- Dati personali in tabelle-->
+<body>
+<form method="post" id="Delivery" autocomplete="on">
+
+
+  <div>
+    <div>Campo</div>
+    <div>Input</div>
+  </div>
+
+
+  <div>
+    <div><label for="fname">Nome*</label></div>
+    <div>
+      <input type="text" name="fname" placeholder="Nome" id="fname" required>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="lname">Cognome*</label></div>
+    <div>
+      <input type="text" name="lname" placeholder="Cognome" id="lname" required>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="Address"> Indirizzo*</label></div>
+    <div>
+      <input type="text" name="address" placeholder="Indirizzo" id="Address" required>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="street number">Civico</label></div>
+    <div>
+      <input type="number" name="stnumber" id="street number" placeholder="0">
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="cap">Cap</label></div>
+    <div>
+      <input type="number" name="cap" id="cap" placeholder="00000">
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="Prov">Provincia</label></div>
+    <div>
+      <select name="provincia" id="Prov">
+        <option value="NA">Napoli</option>
+        <option value="RO">Roma</option>
+        <option value="MI">Milano</option>
+        <option value="OT" selected>Altro</option>
+      </select>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="city">Città*</label></div>
+    <div>
+      <input type="text" name="città" placeholder="Città" id="city" required>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="Tel">Telefono*</label></div>
+    <div>
+      <input type="tel" name="tel" placeholder="+39" id="Tel" required>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="Country">Nazione</label></div>
+    <div>
+      <input type="text" name="Country" id="Country" placeholder="Nazione">
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="email">Email*</label></div>
+    <div>
+      <input type="email" name="email" id="email" placeholder="@email.com" required>
+    </div>
+  </div>
+
+
+  <div>
+    <div><label for="Note">Note</label></div>
+    <div>
+      <textarea name="Note" id="Note" cols="30" rows="10" placeholder="Text"></textarea>
+    </div>
+  </div>
+
+
+  <div>
+    <div>
+      <input type="submit" value="Invia">
+    </div>
+  </div>
+
+  <button type="reset" form="Delivery">Reset</button>
+</form>
+<!--Fine dati personali in tabelle-->
+</body>
+</html>
