@@ -1,0 +1,268 @@
+/*
+----------INITIAL SETTING----------
+ */
+
+* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300&display=swap');
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*
+----------CUSTOM CSS----------
+ */
+
+body {
+    background-color: lightseagreen;
+}
+
+/*
+----------NAV SECTION----------
+ */
+
+ul.sit-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5em;
+    list-style-type: none;
+    background-color: lightcyan;
+    border-radius: 8px;
+}
+
+.sit-nav li {
+    margin-top: 0;
+}
+
+.sit-nav li > a:hover {
+    background-color: navajowhite;
+    color: dodgerblue;
+    transition: .3s;
+}
+
+.sit-nav a {
+    text-decoration: none;
+    display: block;
+    padding: 2em 2em;
+    color: navajowhite;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.nav-right a {
+    margin: auto 0;
+}
+
+.sit-nav li + li {
+    margin-left: .5em;
+}
+
+.sit-nav .nav-right {
+    margin-left: auto;
+    font-style: oblique;
+}
+
+/*
+----------MAIN----------
+*/
+/*
+----------FLEX CONTAINER----------
+ */
+main {
+    display: flex;
+}
+
+/*
+----------FLEX ITEMS----------
+ */
+main > * + * {
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+
+.tile {
+    background-color: navajowhite;
+    padding: 1.5em;
+    border-radius: 8px;
+}
+
+.column-main {
+    flex: 3;
+}
+
+.column-sidebar {
+    flex: 1;
+}
+
+.column-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-sidebar > .tile {
+    flex: 1;
+}
+
+/*
+----------SIDEBAR----------
+ */
+
+
+.login-form h3 {
+    margin: 0;
+    color: dodgerblue;
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+
+.login-form label {
+    color: dodgerblue;
+}
+
+.login-form input {
+    border: 1px solid dodgerblue;
+    border-radius: 4px;
+    margin-top: 0;
+    padding: 7px 30px;
+}
+
+.login-form button {
+    border: 1px solid red;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.login-form button:hover {
+    background: dodgerblue;
+    color: white;
+    transition: .3s;
+
+}
+
+
+.container header {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container header span {
+    color: navajowhite;
+    font-size: 17px;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cost {
+    display: flex;
+    justify-content: center; /* HORIZONTAL */
+    align-items: center; /* VERTICAL */
+    margin-top: auto;
+    padding: 1.5em 0;
+    color: dodgerblue;
+}
+
+/*.ciao1 {
+    align-self: flex-start;
+    color: dodgerblue;
+}
+
+.ciao2 {
+    align-self: center;
+    color: mediumpurple;
+}
+
+.ciao3 {
+    align-self: end;
+    color: darkolivegreen;
+}*/
+
+.cost span {
+    margin-top: 0;
+}
+
+.cost-currency {
+    font-size: 2em;
+}
+
+.cost-dollars {
+    font-size: 4em;
+}
+
+.cost-cents {
+    font-size: 1.5em;
+    margin-bottom: 27px;
+}
+
+a.cta-button {
+    display: block;
+    margin-top: auto;
+    text-decoration: none;
+    border: 1px red solid;
+    border-radius: 8px;
+    padding: .5em 1em;
+    order: 1;
+    color: black;
+}
+
+a.cta-button:hover {
+    background: dodgerblue;
+    color: white;
+    transition: .3s;
+}
+
+.centered small {
+    color: dodgerblue;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+small:hover {
+    color: white;
+    transition: .6s;
+    font-size: 17px;
+}
+
+
+.column-main h1:first-letter {
+    color: dodgerblue;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+/*
+----------NAVBAR----------
+ */
+
+header h1 {
+    color: #D5F2E3;
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+} /*POSITION ABSOLUTE*/
+
+header h1:hover {
+    color: #EF233C;
+    transition: 1s;
+    cursor: none;
+}
+
+nav .site-nav {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    list-style-type: none;
+}
+
+nav .site-nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #D5F2E3;
+}
+
+nav .site-nav a:hover {
+    color: #EF233C;
+    transition: .3s;
+}
+
+/*
+----------MAIN----------
+ */
+
+main {
+    padding: 1em;
+    position: absolute;
+    background-color: #D5F2E3;
+    margin: 0 30em 0 5em;
+    top: 8em;
+    border-radius: 5px;
+    color: #D90429;
+    z-index: 1;
+} /*POSITION ABSOLUTE*/
+
+main h1 {
+    margin: 10px 0;
+}
+
+main p {
+    color: #000000;
+}

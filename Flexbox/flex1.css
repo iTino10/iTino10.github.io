@@ -1,0 +1,50 @@
+/*
+----------INITIAL SETTING----------
+ */
+
+:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300&display=swap');
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*
+----------CUSTOM CSS----------
+ */
+
+body {
+    background-color: lightseagreen;
+}
+
+/*
+----------NAV SECTION----------
+ */
+
+ul.sit-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5em;
+    list-style-type: none;
+    background-color: lightcyan;
+    border-radius: 8px;
+}
+
+.sit-nav > li {
+    margin-top: 0;
+}

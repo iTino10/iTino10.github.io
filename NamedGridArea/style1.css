@@ -1,0 +1,224 @@
+/*
+----------GENERAL RULES----------
+ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E76F51;
+    margin: 5em;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*
+----------GRID AREA----------
+ */
+
+.container {
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "nav nav"
+            "main sidebar1"
+            "main sidebar2";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+
+}
+
+header {
+    grid-column: header;
+    grid-row: header;
+    color: #264653;
+}
+
+nav {
+    grid-column: nav;
+    grid-row: nav;
+}
+
+main {
+    grid-column: main;
+    grid-row: main;
+}
+
+.sidebar-top {
+    grid-column: sidebar1;
+    grid-row: sidebar1;
+}
+
+.sidebar-bottom {
+    grid-column: sidebar2;
+    grid-row: sidebar2;
+}
+
+/*
+----------NAVBAR----------
+ */
+
+ul.site-nav {
+    display: flex;
+    position: absolute;
+    right: 5em;
+    top: 5em;
+    list-style-type: none;
+
+
+}
+
+ul.site-nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    background-color: #264653;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+ul.site-nav a:hover {
+    background-color: white;
+    color: #264653;
+    transition: .3s;
+}
+
+
+/*
+----------MAIN----------
+ */
+
+main {
+    background-color: #264653;
+    padding: 1em;
+    border-radius: 5px;
+    color: #2A9D8F;
+}
+
+main h1 {
+    margin-bottom: 15px;
+    margin-top: 3px;
+    color: #E76F51;
+}
+
+/*
+----------SIDEBAR TOP----------
+ */
+
+.sidebar-top {
+    background-color: #264653;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.login-form h3 {
+    text-align: right;
+    text-transform: uppercase;
+    color: #E76F51;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    margin-left: 2em;
+    margin-top: 20px;
+    text-align: center;
+    padding: 4px 20px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.login-form button {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 2px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #E76F51;
+    font-weight: bold;
+}
+
+.login-form button:hover {
+    background-color: #E76F51;
+    color: white;
+    transition: .3s;
+}
+
+/*
+----------SIDEBAR BOTTOM----------
+ */
+
+.sidebar-bottom {
+    background-color: #264653;
+    padding: 1em;
+    border-radius: 5px;
+
+}
+
+.sidebar-bottom small {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #E76F51;
+    font-size: 15px;
+}
+
+.sidebar-bottom .cost {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    color: #E76F51;
+}
+
+.sidebar-bottom .cost-currency {
+    font-size: 2.2em;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.sidebar-bottom .cost-euro {
+    font-size: 2.5em;
+}
+
+.sidebar-bottom .cost-cents {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    color: #E76F51;
+    text-decoration: none;
+    background-color: white;
+    padding: 3px 0;
+    margin: 0 50px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #E76F51;
+    color: white;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+

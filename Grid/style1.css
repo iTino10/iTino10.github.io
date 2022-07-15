@@ -1,0 +1,207 @@
+/*
+----------NAV BAR----------
+ */
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+header h1:first-letter {
+    font-size: 60px;
+    color: palevioletred;
+}
+
+header h1:hover {
+    color: palevioletred;
+    transition: 4s color;
+}
+
+ul.site-nav {
+    display: flex;
+    list-style: none;
+    padding: 1.3em;
+    border-radius: 8px;
+    background-color: mediumpurple;
+}
+
+ul.site-nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: indianred;
+    background-color: navajowhite;
+    border: transparent 2px;
+    border-radius: 8px;
+    padding: .5em;
+}
+
+ul.site-nav a:hover {
+    background-color: plum;
+    transition: .5s;
+    color: darkred;
+}
+
+.site-nav > .nav-right {
+    margin-left: auto;
+}
+
+/*
+----------MAIN----------
+ */
+
+.main {
+    background-color: cadetblue;
+    padding: 3em;
+    color: #5500E0;
+    border-radius: 8px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > h1:first-letter {
+    color: navajowhite;
+    font-size: larger;
+}
+
+main > p {
+    text-align: center;
+}
+
+main > p:first-line {
+    color: navajowhite;
+}
+
+/*
+----------SIDEBAR TOP----------
+ */
+
+.sidebar-top h3 {
+    color: navajowhite;
+}
+
+.sidebar-top h3:hover {
+    color: blueviolet;
+    transition: 2s;
+}
+
+.sidebar-top {
+    background-color: cadetblue;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sidebar-top .username {
+    margin-top: 20px;
+    padding: 5px 40px;
+    border: transparent;
+    background-color: navajowhite;
+    border-radius: 3px;
+}
+
+.sidebar-top .password {
+    margin-top: 20px;
+    padding: 5px 40px;
+    border: transparent;
+    background-color: navajowhite;
+    border-radius: 3px;
+}
+
+.sidebar-top button {
+    margin-top: 70px;
+    border: transparent;
+    background-color: #3894FF;
+    color: navajowhite;
+    font-size: 18px;
+    padding: 5px 95px;
+    border-radius: 8px;
+}
+
+.sidebar-top button:hover {
+    background-color: #3890FF;
+    transition: .2s;
+}
+
+.sidebar-top button:active {
+    font-size: 16px;
+}
+
+
+/*
+----------SIDEBAR BOTTOM----------
+ */
+
+.sidebar-bottom {
+    background-color: cadetblue;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.sidebar-bottom small {
+    color: navajowhite;
+    font-size: 18px;
+}
+
+.sidebar-bottom small:hover {
+    color: dodgerblue;
+    transition: .8s;
+}
+
+.sidebar-bottom .cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 1.5em 0;
+    color: navajowhite;
+}
+
+.sidebar-bottom span {
+    margin-top: 0;
+}
+
+.sidebar-bottom .cost-currency {
+    font-size: 2em;
+}
+
+.sidebar-bottom .cost-euro {
+    font-size: 4em;
+}
+
+.sidebar-bottom .cost-cents {
+    font-size: 1.5em;
+    margin-bottom: 27px;
+}
+
+.sidebar-bottom .cta-button {
+    text-decoration: none;
+    color: navajowhite;
+    background-color: #3894FF;
+    font-size: 18px;
+    padding: 5px 95px;
+    border-radius: 8px;
+}
+
+.sidebar-bottom .cta-button:hover {
+    background-color: #3890FF;
+    transition: .2s;
+}
+
+.sidebar-bottom .cta-button:active {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,131 @@
+/*
+----------FOUNDATION----------
+ */
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+
+/*
+----------GENERIC RULES----------
+ */
+
+body {
+    background: #bbb;
+    font-family: Arial, sans-serif;
+}
+
+header,
+footer {
+    background-color: forestgreen;
+    padding: .5em 1.5em;
+    color: white;
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+
+footer {
+    font-size: 18px;
+}
+
+header,
+main,
+footer,
+article{
+    border-radius: .5em;
+}
+
+article h3 {
+    margin: 0;
+}
+
+/*
+----------LAYOUT----------
+ */
+
+
+/*----------DOUBLE CONTAINER PATTERN---------- */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+article {
+    float: left;
+    width: 50%;
+}
+
+/*
+----------CLEAR FIX----------
+ */
+
+section::after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+/*
+----------ARTICLE----------
+ */
+
+main section div article:first-child {
+    margin-top: 1.5em;
+}
+
+main section div article:nth-child(2n+1) {
+    margin-right: 1.5em;
+    font-style: oblique;
+}
+
+main section div article {
+    width: calc(50% - (1.5em /2));
+
+}
+
+article {
+    background-color: #ededed;
+    padding: 1.5em;
+}
+
+section > *:first-child {
+    margin-top: 1.5em;
+}
+
+section::before {
+    display: table;
+    content: "";
+}
+
+section div article:nth-child(2n+1) {
+    clear: left;
+}
+
+/*
+----------INTERNAL ARTICLE----------
+ */
+
+section div article img {
+    float:left;
+    margin: 1.5em;
+}
+
+section div article p {
+    overflow: auto;
+    text-align: justify;
+}
