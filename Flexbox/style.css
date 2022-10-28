@@ -101,18 +101,10 @@ main > * + * {
     border-radius: 8px;
 }
 
-.column-main {
-    flex: 3;
-}
-
 .column-sidebar {
     flex: 1;
 }
 
-.column-sidebar {
-    display: flex;
-    flex-direction: column;
-}
 
 .column-sidebar > .tile {
     flex: 1;
