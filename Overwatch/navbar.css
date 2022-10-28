@@ -1,0 +1,77 @@
+/*NAVBAR*/
+.navbar-container {
+  position: fixed;
+  background: rgba(229, 235, 244, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+  padding: 10px;
+  top: 20px;
+  left: 15px;
+  right: 15px;
+  border-radius: 10px;
+  z-index: 999; }
+  .navbar-container .button-before::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0000004f; }
+  .navbar-container .button-after::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    font-size: 12px;
+    margin: 0 5px;
+    color: #0000004f; }
+  .navbar-container .container-image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+  .navbar-container .navbar-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px; }
+    .navbar-container .navbar-items li {
+      list-style-type: none; }
+    .navbar-container .navbar-items a {
+      margin-right: 25px;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      font-size: 20px; }
+      .navbar-container .navbar-items a:hover {
+        background-color: rgba(119, 119, 119, 0.15);
+        border-radius: 10px;
+        transition: .2s; }
+  .navbar-container .nav-bar-right {
+    margin-left: auto; }
+    .navbar-container .nav-bar-right .cta-navbar-left {
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      margin-right: 20px;
+      font-size: 18px;
+      font-weight: 500; }
+      .navbar-container .nav-bar-right .cta-navbar-left:hover {
+        background-color: rgba(119, 119, 119, 0.15);
+        border-radius: 10px;
+        transition: .2s; }
+    .navbar-container .nav-bar-right .cta-navbar-right {
+      cursor: pointer;
+      padding: 15px 25px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+      border: none;
+      background-color: #f06414;
+      border-radius: 8px; }
+      .navbar-container .nav-bar-right .cta-navbar-right:hover {
+        background-color: #ff7629;
+        transition: .3s; }
+
+/*# sourceMappingURL=navbar.css.map */
