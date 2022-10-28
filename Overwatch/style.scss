@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,400&display=swap');
+@import url(style/navbar.scss);
+@import url(style/bg-1.scss);
+@import url(style/bg-2.scss);
+@import url(style/bg-3.scss);
+@import url(style/bg-4.scss);
+@import url(style/bg-5.scss);
+@import url(style/Mediaquery.scss);
+@import url(style/footer.scss);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.container-image img {
+  margin-left: 25px;
+  width: 40px;
+  height: auto;
+}
+
+.image-items-blizzard img {
+  width: 90px;
+  margin-right: 20px;
+}
+
+
+
+
+
+

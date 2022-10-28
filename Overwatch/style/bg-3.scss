@@ -1,0 +1,154 @@
+/*BG-3*/
+#content-2 {
+  padding: 2em 0;
+}
+
+.bg-3 {
+  width: 100%;
+  height: auto;
+  background: rgb(0, 57, 119);
+  background: linear-gradient(345deg, rgba(0, 57, 119, 1) 37%, rgba(0, 7, 120, 1) 81%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bg-3-container-text-1 {
+  display: flex;
+  flex-wrap: wrap;
+
+  .bg-3-image-items-right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+      max-width: 100%;
+      margin-right: 50px;
+      width: 900px;
+      height: auto;
+    }
+  }
+
+  h1 {
+    max-width: 600px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.49);
+  }
+
+  p {
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 600px;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.49);
+  }
+
+  .bg-3-cta-button {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    .cta-button-left {
+      padding: 30px 65px;
+      font-size: 18px;
+      font-weight: 500;
+      border: none;
+      border-radius: 2px;
+      color: white;
+      background-color: rgb(240, 100, 20);
+    }
+
+    .cta-button-Right {
+      padding: 30px 45px;
+      border: none;
+      background-color: white;
+      margin-left: 50px;
+      border-radius: 2px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+#content-3 {
+  padding: 4em 0;
+}
+
+.bg-4 {
+  width: 100%;
+  height: 65vh;
+  background: rgb(150, 186, 247);
+  background: linear-gradient(345deg, rgba(150, 186, 247, 1) 0%, rgba(255, 255, 255, 1) 80%);
+  text-align: center;
+}
+
+.title-4 {
+  font-size: 32px;
+  text-align: center;
+  color: #1d253a;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  overflow: scroll hidden;
+
+  .container-text-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    height: 100%;
+  }
+
+  .cards-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #141926;
+    border: 1px solid #7f45e7;
+    border-radius: 3px;
+    margin-right: 60px;
+    cursor: pointer;
+
+    h4 {
+      text-align: left;
+      max-width: 100%;
+      width: 270px;
+      height: auto;
+      font-size: 20px;
+      font-weight: 600;
+      color: #BDBFC6;
+    }
+
+    p {
+      text-align: left;
+      color: #BDBFC6;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 325px;
+    }
+  }
+}
+
+.cta-button-4 {
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px 70px;
+  background: #05a0fa;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
