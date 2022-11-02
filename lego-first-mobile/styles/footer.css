@@ -1,0 +1,85 @@
+#lego-footer {
+  padding: 2em 0; }
+
+.lego-footer {
+  background: #201d48;
+  max-width: 100%;
+  height: auto; }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-bottom: 20px; }
+  .footer-container .footer-logo-items {
+    display: flex;
+    padding: 5px 0;
+    margin-right: 10px; }
+    .footer-container .footer-logo-items img {
+      max-width: 100%;
+      width: 70px;
+      height: auto; }
+  .footer-container h4 {
+    color: white;
+    background-color: #18152d;
+    padding: 10px 30px;
+    margin-top: 2px;
+    margin-left: 10px; }
+    .footer-container h4::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      content: "\f3c5";
+      font-size: 20px;
+      margin-right: 10px; }
+  .footer-container .text-logo-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .footer-container .text-logo-footer h3 {
+      color: white;
+      margin-right: 10px;
+      margin-top: 20px;
+      font-weight: 300; }
+
+.list-footer {
+  max-width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; }
+  .list-footer h3 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px; }
+    .list-footer h3::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      content: "\f078";
+      font-size: 20px; }
+
+.footer-social {
+  margin-top: 35px;
+  border-top: 1px solid rgba(255, 255, 255, 0.78);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.78); }
+  .footer-social .title-social-footer {
+    display: flex; }
+    .footer-social .title-social-footer h4 {
+      color: white;
+      margin-left: 10px; }
+  .footer-social .icon-social-footer {
+    display: flex; }
+    .footer-social .icon-social-footer a {
+      font-size: 25px;
+      color: white;
+      border-radius: 50%;
+      margin: 20px; }
+
+.title-name-footer {
+  margin: 10px 0; }
+  .title-name-footer h5 {
+    color: white; }
+
+/*# sourceMappingURL=footer.css.map */

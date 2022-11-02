@@ -1,0 +1,41 @@
+#section-help {
+  padding: 2em .5em;
+  margin: 50px 0; }
+
+.section-help {
+  background-color: #E6F4FF;
+  max-width: 100%;
+  height: 100%; }
+  .section-help .help-container {
+    display: flex;
+    flex-wrap: wrap; }
+    .section-help .help-container .items-help {
+      display: flex; }
+      .section-help .help-container .items-help .image-help img {
+        width: 100px;
+        height: auto;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin-right: 10px; }
+    .section-help .help-container .text-help {
+      display: flex;
+      flex-wrap: wrap; }
+      .section-help .help-container .text-help h4 {
+        font-size: 15px;
+        font-weight: 500; }
+      .section-help .help-container .text-help h5 {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 30px; }
+      .section-help .help-container .text-help .button-help {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+        .section-help .help-container .text-help .button-help a {
+          cursor: pointer;
+          color: #016CB6;
+          font-size: 13px;
+          margin: 10px 15px 10px 0;
+          font-weight: 500; }
+
+/*# sourceMappingURL=section-help.css.map */

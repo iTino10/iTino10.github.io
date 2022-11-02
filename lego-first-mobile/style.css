@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+@import url(styles/mediaquery.scss);
+@import url(styles/mediaquery-md.scss);
+@import url(styles/mediaquery-lg.scss);
+@import url(styles/mediaquery-xl.scss);
+@import url(styles/mediaquery-xxl.scss);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box; }
+
+*,
+::before,
+::after {
+  box-sizing: inherit; }
+
+/*# sourceMappingURL=style.css.map */

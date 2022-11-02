@@ -1,0 +1,39 @@
+#section-trend {
+  padding: 1em; }
+
+h2 {
+  font-size: initial; }
+
+.section-trend {
+  overflow: scroll hidden; }
+  .section-trend .container-image-trend {
+    display: flex;
+    align-items: flex-start; }
+    .section-trend .container-image-trend .items-image-trend {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .section-trend .container-image-trend .items-image-trend img {
+        width: 280px;
+        margin-right: 18px;
+        height: auto; }
+      .section-trend .container-image-trend .items-image-trend h3 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+        margin: 10px 0; }
+      .section-trend .container-image-trend .items-image-trend h4 {
+        font-size: 14px;
+        margin: 10px 5px;
+        font-weight: 300;
+        text-align: center; }
+      .section-trend .container-image-trend .items-image-trend span {
+        font-weight: 500; }
+        .section-trend .container-image-trend .items-image-trend span::after {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 700;
+          content: "\f054";
+          font-size: small;
+          margin-left: 5px; }
+
+/*# sourceMappingURL=section-trend.css.map */

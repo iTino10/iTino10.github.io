@@ -1,0 +1,57 @@
+.bg-color-navbar {
+  background-color: white;
+  border-bottom: 2px solid #ffcf00;
+  display: flex;
+  padding: 5px; }
+  .bg-color-navbar .menu-navbar-icon {
+    display: flex;
+    align-items: center; }
+    .bg-color-navbar .menu-navbar-icon::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      content: "\f0c9";
+      margin: 0 15px; }
+  .bg-color-navbar .navbar-left {
+    display: none; }
+  .bg-color-navbar .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; }
+    .bg-color-navbar .navbar-right li {
+      list-style-type: none; }
+    .bg-color-navbar .navbar-right a {
+      text-decoration: none;
+      padding: 10px; }
+  .bg-color-navbar .icon-Lego img {
+    margin-top: 5px;
+    max-width: 100%;
+    width: 40px;
+    height: auto; }
+
+.search-navbar-icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f002";
+  color: black;
+  font-size: 20px; }
+
+.lego-image-navbar-right img {
+  max-width: 100%;
+  width: 25px;
+  height: auto; }
+
+.heart-navbar-icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f004";
+  color: rgba(255, 0, 0, 0.87);
+  font-size: 20px; }
+
+.Shop-navbar-icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f290";
+  color: black;
+  font-size: 20px; }
+
+/*# sourceMappingURL=navbar.css.map */

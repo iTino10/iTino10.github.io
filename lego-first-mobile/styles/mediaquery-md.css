@@ -1,0 +1,7 @@
+@media (min-width: 767px) {
+  .section-object .object-container {
+    max-width: 100%; }
+  .section-object .object-items {
+    margin: 12px 18px; } }
+
+/*# sourceMappingURL=mediaquery-md.css.map */

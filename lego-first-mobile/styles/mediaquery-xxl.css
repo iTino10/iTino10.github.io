@@ -1,0 +1,23 @@
+@media (min-width: 1400px) {
+  .bg-section .container-section-1 .bg-section-1 .text-section-1 h4 {
+    width: 480px; } }
+@media (min-width: 1600px) {
+  .container-lego {
+    margin: 0 200px; }
+
+  #section-help {
+    margin: 50px 50px; }
+
+  .section-help {
+    border-radius: 90px; }
+    .section-help .help-container {
+      justify-content: center; }
+    .section-help .text-help {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+
+  .bg-section .container-section-1 .bg-section-1 .text-section-1 h4 {
+    width: 550px; } }
+
+/*# sourceMappingURL=mediaquery-xxl.css.map */
