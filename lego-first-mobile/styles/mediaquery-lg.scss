@@ -1,0 +1,95 @@
+@media (min-width: 992px) {
+  .bg-color-navbar {
+    background-color: #ffcf00;
+
+    .menu-navbar-icon {
+      display: none;
+    }
+
+    .icon-Lego {
+      margin-left: 15px;
+
+      img {
+        width: 60px;
+      }
+    }
+
+    .navbar-left {
+      display: flex;
+      align-items: center;
+
+      li {
+        list-style-type: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase;
+      }
+    }
+
+    .navbar-right {
+      margin-right: 25px;
+
+      li {
+        margin-right: 10px;
+
+      }
+
+      .lego-image-navbar-right {
+        display: none;
+      }
+
+      .search-navbar-icon {
+        font-size: 18px;
+        padding: 9px;
+        border-radius: 90px;
+        background: #ffffff;
+        box-shadow: inset -2px 2px 5px #d9d9d9,
+        inset 2px -2px 5px #ffffff;
+      }
+    }
+  }
+  .bg-section {
+
+    .container-section-1 {
+
+      .bg-section-1 {
+
+        .bg-black-section-1 {
+          width: 100vw;
+          height: 30vw;
+        }
+
+        .text-section-1 {
+          justify-content: center;
+
+          h2 {
+            text-align: center;
+          }
+
+          h4 {
+            width: 370px;
+            text-align: center;
+          }
+
+          .button-left-section-1 {
+            padding: 10px 10px;
+            font-size: 15px;
+            margin: 14px 5px;
+          }
+
+          .button-right-section-1 {
+            padding: 10px 10px;
+            font-size: 15px;
+            margin: 14px 5px;
+          }
+        }
+      }
+    }
+  }
+}

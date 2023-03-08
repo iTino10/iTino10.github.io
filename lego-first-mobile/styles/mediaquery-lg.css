@@ -1,0 +1,54 @@
+@media (min-width: 992px) {
+  .bg-color-navbar {
+    background-color: #ffcf00; }
+    .bg-color-navbar .menu-navbar-icon {
+      display: none; }
+    .bg-color-navbar .icon-Lego {
+      margin-left: 15px; }
+      .bg-color-navbar .icon-Lego img {
+        width: 60px; }
+    .bg-color-navbar .navbar-left {
+      display: flex;
+      align-items: center; }
+      .bg-color-navbar .navbar-left li {
+        list-style-type: none; }
+      .bg-color-navbar .navbar-left a {
+        text-decoration: none;
+        color: black;
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase; }
+    .bg-color-navbar .navbar-right {
+      margin-right: 25px; }
+      .bg-color-navbar .navbar-right li {
+        margin-right: 10px; }
+      .bg-color-navbar .navbar-right .lego-image-navbar-right {
+        display: none; }
+      .bg-color-navbar .navbar-right .search-navbar-icon {
+        font-size: 18px;
+        padding: 9px;
+        border-radius: 90px;
+        background: #ffffff;
+        box-shadow: inset -2px 2px 5px #d9d9d9, inset 2px -2px 5px #ffffff; }
+
+  .bg-section .container-section-1 .bg-section-1 .bg-black-section-1 {
+    width: 100vw;
+    height: 30vw; }
+  .bg-section .container-section-1 .bg-section-1 .text-section-1 {
+    justify-content: center; }
+    .bg-section .container-section-1 .bg-section-1 .text-section-1 h2 {
+      text-align: center; }
+    .bg-section .container-section-1 .bg-section-1 .text-section-1 h4 {
+      width: 370px;
+      text-align: center; }
+    .bg-section .container-section-1 .bg-section-1 .text-section-1 .button-left-section-1 {
+      padding: 10px 10px;
+      font-size: 15px;
+      margin: 14px 5px; }
+    .bg-section .container-section-1 .bg-section-1 .text-section-1 .button-right-section-1 {
+      padding: 10px 10px;
+      font-size: 15px;
+      margin: 14px 5px; } }
+
+/*# sourceMappingURL=mediaquery-lg.css.map */

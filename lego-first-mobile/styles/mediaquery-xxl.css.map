@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,0BAA2B;EAMjB,iEAAG;IACD,KAAK,EAAE,KAAK;AAOxB,0BAA2B;EACzB,eAAgB;IACd,MAAM,EAAE,OAAO;;EAEjB,aAAc;IACZ,MAAM,EAAE,SAAS;;EAEnB,aAAc;IACZ,aAAa,EAAE,IAAI;IAEnB,6BAAgB;MACd,eAAe,EAAE,MAAM;IAGzB,wBAAW;MACT,WAAW,EAAE,MAAM;MACnB,eAAe,EAAE,MAAM;MACvB,cAAc,EAAE,MAAM;;EAQlB,iEAAG;IACD,KAAK,EAAE,KAAK",
+"sources": ["mediaquery-xxl.scss"],
+"names": [],
+"file": "mediaquery-xxl.css"
+}

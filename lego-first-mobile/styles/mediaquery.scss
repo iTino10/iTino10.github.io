@@ -1,0 +1,77 @@
+/*SM*/
+@media (min-width: 575px) {
+  .bg-section {
+
+    .container-section-1 {
+
+      .bg-section-1 {
+        flex-wrap: nowrap;
+        align-items: center;
+
+        .bg-black-section-1 {
+          width: 295vw;
+          height: 50vw;
+        }
+
+        .text-section-1 {
+          display: flex;
+
+          h2 {
+            font-weight: 500;
+            text-align: end;
+          }
+
+          h4 {
+            font-weight: 300;
+            text-align: end;
+          }
+
+          .button-left-section-1 {
+            font-size: 12px;
+            padding: 9px 15px;
+            margin: 4px 5px;
+          }
+
+          .button-right-section-1 {
+            font-size: 12px;
+            padding: 9px 15px;
+            margin: 4px 5px;
+
+          }
+        }
+
+      }
+    }
+  }
+
+  .section-object {
+
+    .object-container {
+      max-width: unset;
+    }
+  }
+
+  .container-offers {
+    img {
+      display: none;
+    }
+
+    .bg-color-offers {
+      background-image: url(../image-Lego/lego-offers-mediaquery.webp);
+      background-size: cover;
+      max-width: 100%;
+      height: 160px;
+    }
+
+    .text-offers {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+}
+
+
+
+
+
+
